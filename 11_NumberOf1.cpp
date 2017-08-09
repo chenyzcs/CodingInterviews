@@ -17,7 +17,7 @@ int NumberOf1(int n)
 
 int bitsetSolution(int n)
 {
-    size_t sz = numeric_limits<unsigned int>::digits;
+    const size_t sz = numeric_limits<unsigned int>::digits;
     bitset<sz> b(n);
     return b.count();
 }
