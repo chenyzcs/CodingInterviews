@@ -11,7 +11,6 @@ double Power(double base, int exponent)
         return base;
     double res;
     if (tmp % 2 == 0)
-
         res = Power(base, tmp / 2) * Power(base, tmp / 2);
 
     if (tmp % 2 == 1)
