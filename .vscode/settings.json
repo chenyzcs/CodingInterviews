@@ -5,6 +5,7 @@
         "vector": "cpp",
         "xstring": "cpp",
         "limits": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "ostream": "cpp"
     }
 }
