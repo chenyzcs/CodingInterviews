@@ -22,7 +22,7 @@ vector<string> Permutation(string str)
     vector<string> ret;
     int pos = 0;
     PermutationCore(str, ret, pos);
-    std::qsort(ret.begin(), ret.end());
+    std::sort(ret.begin(), ret.end());
     return ret;
 }
 
